@@ -15,7 +15,7 @@ $finalinfo = ("http://".$info);
 	}
 $htmlsec = file_get_contents($finalinfo);
 preg_match_all(
-     "/(http.*?ewnsabrptpri_por.*?m3u8)/",
+     "/(http.*?m3u8)/",
     $htmlsec,
     $postssec, // will contain the article data
     PREG_SET_ORDER // formats data into an array of posts
